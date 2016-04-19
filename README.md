@@ -35,8 +35,7 @@
     em顾名思义rem只相对跟节点计算，这就是说只要在根节点设定好参考值，那么全篇的1rem都相等，计算方式同em，默认1rem=16px;同理你可以设定html{font-size:62.5%}那么1rem就等于10px,以此类推
     
    声明一下:rem是css3属性，没错!这就是说ie678不支持rem属性，只有chrome、firefox等高富帅支持。那么我们就在ie678中用px做兼容处理，例如：
-   ```
-  ```
+ 
    .box {
       font-size:14px;
       font-size:0.875em;
